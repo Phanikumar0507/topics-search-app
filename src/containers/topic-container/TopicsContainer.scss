@@ -1,0 +1,21 @@
+.topics-container {
+  max-width: 480px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 16px;
+  &__search-container {
+    &__search-box {
+      padding: 12px 16px;
+      border: 1px solid #333;
+      border-radius: 4px;
+      width: 100%;
+      box-sizing: border-box;
+      margin-bottom: 16px;
+    }
+  }
+  .no-data-text {
+    text-align: center;
+    color: #f44336;
+    padding: 16px;
+  }
+}

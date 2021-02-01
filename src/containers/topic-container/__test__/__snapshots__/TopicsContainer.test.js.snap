@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TopicsContainer Component should render without crash 1`] = `
+<div
+  className="topics-container"
+>
+  <div
+    className="topics-container__search-container"
+  >
+    <input
+      className="topics-container__search-container__search-box"
+      id="search_box"
+      name="topicText"
+      onChange={[Function]}
+      type="text"
+      value="react"
+    />
+  </div>
+  <TopicsList
+    topicName="react"
+  />
+</div>
+`;

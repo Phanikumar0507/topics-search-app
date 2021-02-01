@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Related Topics Component should render wihtout crash 1`] = `
+<div
+  className="modal-popup"
+>
+  <div
+    className="modal-content"
+  >
+    <div
+      className="modal-header"
+    >
+      <h3>
+        Related Topics
+      </h3>
+      <span
+        className="close-btn"
+        onClick={[Function]}
+      >
+        ×
+      </span>
+    </div>
+    <div
+      className="topics-list"
+    >
+      <Topic
+        key="0"
+        setShowRelated={[Function]}
+        topic={
+          Object {
+            "name": "angular",
+            "stargazerCount": 10,
+          }
+        }
+      />
+    </div>
+  </div>
+</div>
+`;

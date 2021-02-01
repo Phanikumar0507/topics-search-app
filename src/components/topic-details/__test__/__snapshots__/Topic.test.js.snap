@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Topic Component should render without crash 1`] = `
+<div
+  className="topic"
+  onClick={[Function]}
+>
+  <div
+    className="topic-name"
+  >
+    react
+  </div>
+  <div
+    className="topic-star-count"
+  >
+    100
+  </div>
+</div>
+`;

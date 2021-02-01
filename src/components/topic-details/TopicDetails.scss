@@ -1,0 +1,68 @@
+.topic {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+    border: 1px solid #ddd;
+    cursor: pointer;
+  }
+  
+  .topic:hover {
+    background-color: #f5f5f5;
+  }
+  
+  .topic-name {
+    font-weight: 600;
+  }
+  
+  .topic-star-count {
+    background-color: #607d8b;
+    color: #fff;
+    padding: 2px 4px;
+    border-radius: 4px;
+    border: 1px solid #455a64;
+  }
+  
+  .modal-popup {
+    /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0); /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: #fefefe;
+    margin: 10% auto; /* 15% from the top and centered */
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+  }
+  
+  .modal-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+    background: #f5f5f5;
+  }
+  
+  .close-btn {
+    font-size: 24px;
+    background-color: red;
+    color: #fff;
+    border: 1px solid red;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .topics-list {
+      padding: 16px;
+  }
+  

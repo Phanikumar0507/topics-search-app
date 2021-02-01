@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Topic Details Component should render without crash 1`] = `
+<Fragment>
+  <Topic
+    setShowRelated={[Function]}
+    topic={
+      Object {
+        "name": "vue",
+        "stargazerCount": 999,
+      }
+    }
+  />
+</Fragment>
+`;
